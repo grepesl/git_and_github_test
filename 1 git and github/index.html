@@ -20,7 +20,27 @@
                 <li>init - sukurti git repozitoriją dabartiniame aplankale</li>
                 <li>status - pateikia git repozitorijos dabartinę informaciją</li>
                 <li>add - prideda nurodytus failus prie commitinimui paruoštų failų (stage area)</li>
+                <li>rm --cashed or restore --staged - išima nurodytus failus iš stage'inimo zonos (unstage'ina)</li>
+                <li>commit -m "žinutė" - sukuria kodo versiją iš stage'intų failų ir prideda žinutę pie pakitimus</li>
+                <li>restore - sugrąžina nurodytą/us failą/us į pradinę būseną ( jeigu tie failai nebuvo add'inti į stage zoną)</li>
+                <li>push - nusiunčia lokalios repozitorijos commitus į išorinę repozitoriją</li>
+                <li>pull - atsiunčia išorinės repozitorijos pakitimus į lokalią repozitoriją</li>
+                <li>log - išveda commitų sąrašą</li>
+                <li>clone - nuklonuoja nurodytą projektą į dabartinį aplankalą</li>
+                <li>checkout commitID|brancName - pereinama į nurodytą kodo versiją arba kitą šaką</li>
+                <li>branch naujosSakosPav - sukuriama nauja šaka</li>
+                <li>...</li>
             </ul>
+        </section>
+        <section>
+            <h2>Branch protection rules</h2>
+            <p>
+                Vienas svarbiausių šakų apsaugos taisyklių yra "Pull request" (bandymas vienos šakos commit'us sukelti į kitą šaką (merge))<br>
+                Pull Request taisyklės viduje dar reikėtų suteikti "Request approvals" nustatymą, kuris reikalauja, kad nurodytas kiekis kitų projekto dalyvių patvirtintų tą Pull Request'ą norint, kad šakos būtų apjungtos.
+            </p>
+        </section>
+        <section>
+            
         </section>
     </main>
 </body>
